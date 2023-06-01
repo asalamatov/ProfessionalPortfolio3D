@@ -77,18 +77,18 @@ import {
   ];
   
   const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
+    // {
+    //   name: "HTML 5",
+    //   icon: html,
+    // },
+    // {
+    //   name: "CSS 3",
+    //   icon: css,
+    // },
+    // {
+    //   name: "JavaScript",
+    //   icon: javascript,
+    // },
     // {
     //   name: "TypeScript",
     //   icon: typescript,
@@ -109,18 +109,18 @@ import {
       name: "Python",
       icon: python,
     },
+    // {
+    //   name: "Tailwind CSS",
+    //   icon: tailwind,
+    // },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "Node JS",
+      icon: nodejs,
     },
-    // {
-    //   name: "Node JS",
-    //   icon: nodejs,
-    // },
-    // {
-    //   name: "MongoDB",
-    //   icon: mongodb,
-    // },
+    {
+      name: "MongoDB",
+      icon: mongodb,
+    },
     {
       name: "Three JS",
       icon: threejs,
@@ -129,18 +129,18 @@ import {
       name: "git",
       icon: git,
     },
-    // {
-    //   name: "figma",
-    //   icon: figma,
-    // },
-    // {
-    //   name: "docker",
-    //   icon: docker,
-    // },
     {
-      name: "C",
-      icon: c,
+      name: "figma",
+      icon: figma,
     },
+    {
+      name: "docker",
+      icon: docker,
+    },
+    // {
+    //   name: "C",
+    //   icon: c,
+    // },
     {
       name: "C++",
       icon: cpp,
