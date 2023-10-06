@@ -52,6 +52,15 @@ import portfolio from "./portfolio.png";
 import pdf_audio from "./pdf_audio.png";
 import { o } from "maath/dist/index-43782085.esm";
 
+import ibm_ful_stack_badge from './ibm-full-stack.png';
+import google_adv_data_badge from './google-advanced-data-analytics.png';
+import google_python_badge from './google-python-automation.png';
+import meta_full_stack_badge from './meta-full-stack-engineer-certificate.png';
+import nau_badge from './nau-tertiary-white-text.png';
+import ibm_ai_engineering_badge from './Professional_Certificate_-_AI_Engineering.png';
+import meta_backend_badge from './meta-backend.png';
+import meta_frontend_badge from './meta-front-end.png';
+
 export {
   logo,
   backend,
@@ -99,4 +108,12 @@ export {
   ujava,
   upython100,
   usql,
+  ibm_ai_engineering_badge,
+  ibm_ful_stack_badge,
+  google_adv_data_badge,
+  google_python_badge,
+  meta_full_stack_badge,
+  nau_badge,
+  meta_frontend_badge,
+  meta_backend_badge
 };

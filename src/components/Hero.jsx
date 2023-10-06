@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 
 import { styles } from '../styles'
 import { ComputersCanvas } from './canvas';
+import { badges } from '../constants';
 
 const Hero = () => {
   return (
@@ -137,95 +138,109 @@ const Hero = () => {
 
       <div class="absolute top-[500px] w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
         <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
-          <li>
+          {badges.map((badge, index) => {
+            return (
+              <li key={index}>
+                <img src={badge} alt="" className='w-40'/>
+              </li>
+            );
+          })}
+          {/* <li>
             <img
-              src="src/assets/meta-full-stack-engineer-certificate.png"
+              src="assets/meta-full-stack-engineer-certificate.png"
               alt="meta badge"
               class="w-40"
             />
           </li>
           <li>
             <img
-              src="src/assets/google-advanced-data-analytics.png"
+              src="assets/google-advanced-data-analytics.png"
               alt="meta badge"
               class="w-40"
             />
           </li>
           <li>
             <img
-              src="src/assets/Professional_Certificate_-_AI_Engineering.png"
+              src="assets/Professional_Certificate_-_AI_Engineering.png"
               alt="meta badge"
               class="w-40"
             />
           </li>
           <li>
             <img
-              src="src/assets/google-python-automation.png"
+              src="assets/google-python-automation.png"
               alt="meta badge"
               class="w-40"
             />
           </li>
           <li>
             <img
-              src="src/assets/ibm-full-stack.png"
+              src="assets/ibm-full-stack.png"
               alt="meta badge"
               class="w-40"
             />
           </li>
           <li>
             <img
-              src="src/assets/nau-tertiary-white-text.png"
+              src="assets/nau-tertiary-white-text.png"
               alt="meta badge"
               class="w-40"
             />
-          </li>
+          </li> */}
         </ul>
         <ul
           class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"
           aria-hidden="true"
         >
-          <li>
+          {badges.map((badge, index) => {
+            return (
+              <li key={index}>
+                <img src={badge} alt="" className='w-40'/>
+              </li>
+            );
+          })}
+          {/* <li>
             <img
-              src="src/assets/meta-full-stack-engineer-certificate.png"
+              src="assets/meta-full-stack-engineer-certificate.png"
               alt="meta badge"
               class="w-40"
             />
           </li>
           <li>
             <img
-              src="src/assets/google-advanced-data-analytics.png"
+              src="assets/google-advanced-data-analytics.png"
               alt="meta badge"
               class="w-40"
             />
           </li>
           <li>
             <img
-              src="src/assets/Professional_Certificate_-_AI_Engineering.png"
+              src="assets/Professional_Certificate_-_AI_Engineering.png"
               alt="meta badge"
               class="w-40"
             />
           </li>
           <li>
             <img
-              src="src/assets/google-python-automation.png"
+              src="assets/google-python-automation.png"
               alt="meta badge"
               class="w-40"
             />
           </li>
           <li>
             <img
-              src="src/assets/ibm-full-stack.png"
+              src="assets/ibm-full-stack.png"
               alt="meta badge"
               class="w-40"
             />
           </li>
           <li>
             <img
-              src="src/assets/nau-tertiary-white-text.png"
+              src="assets/nau-tertiary-white-text.png"
               alt="meta badge"
               class="w-40"
             />
-          </li>
+          </li> */}
         </ul>
       </div>
 

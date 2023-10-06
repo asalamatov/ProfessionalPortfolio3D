@@ -40,7 +40,26 @@ import {
     ujava,
     upython100,
     usql,
-  } from "../assets";
+    ibm_ai_engineering_badge,
+    ibm_ful_stack_badge,
+    meta_full_stack_badge,
+    google_adv_data_badge,
+    google_python_badge,
+    nau_badge,
+    meta_backend_badge,
+    meta_frontend_badge,
+} from "../assets";
+
+export const badges = [
+  meta_full_stack_badge,
+  google_adv_data_badge,
+  ibm_ai_engineering_badge,
+  meta_backend_badge,
+  google_python_badge,
+  ibm_ful_stack_badge,
+  nau_badge,
+  meta_frontend_badge,
+]
 
   export const navLinks = [
     {
