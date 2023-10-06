@@ -32,24 +32,36 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
-      <motion.p 
+      <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in Javascript, Python, Java and
-        C++, and expertise in frameworks like React, Django, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a skilled software engineer with 2-years of experience in
+        <strong> Full Stack Web Development </strong>
+        and <strong>Machine Learning</strong>. I am a junior student at
+        North American University, Houston, Texas.
+        I have expertise in
+        MERN Stack (MongoDB, Express, React, Node), Next.js, React Native,
+        Django, combined with Machine Learning Backend (TensorFlow),
+        and programming languages like Python,
+        JavaScript, Java and C++. I'm a quick
+        learner and collaborate closely with clients to create
+        efficient, scalable, and user-friendly solutions that solve
+        real-world problems. Let's work together to bring your ideas
+        to life!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service}/>
+          <ServiceCard
+            key={service.title}
+            index={index}
+            {...service}
+          />
         ))}
       </div>
     </>
-  )
+  );
 }
 
 export default SectionWrapper(About, "about")

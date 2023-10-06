@@ -41,7 +41,7 @@ import {
     upython100,
     usql,
   } from "../assets";
-  
+
   export const navLinks = [
     {
       id: "about",
@@ -56,51 +56,51 @@ import {
       title: "Contact",
     },
   ];
-  
+
   const services = [
     {
-      title: "Full-Stack Developer by Meta",
+      title: "Full-Stack Developer",
       icon: web,
     },
     {
-      title: "Python Automation Developer by Google",
+      title: "Automation Engineer",
       icon: mobile,
     },
     {
-      title: "Java Software Engineer by Neutrino",
+      title: "AI Engineer",
       icon: backend,
     },
     {
-      title: "React Developer by Meta",
+      title: "Data Analyst",
       icon: creator,
     },
   ];
-  
+
   const technologies = [
-    // {
-    //   name: "HTML 5",
-    //   icon: html,
-    // },
-    // {
-    //   name: "CSS 3",
-    //   icon: css,
-    // },
-    // {
-    //   name: "JavaScript",
-    //   icon: javascript,
-    // },
-    // {
-    //   name: "TypeScript",
-    //   icon: typescript,
-    // },
+    {
+      name: "HTML 5",
+      icon: html,
+    },
+    {
+      name: "CSS 3",
+      icon: css,
+    },
+    {
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
+      name: "TypeScript",
+      icon: typescript,
+    },
     {
       name: "React JS",
       icon: reactjs,
     },
-    // {
-    //   name: "Redux Toolkit",
-    //   icon: redux,
-    // },
+    {
+      name: "Redux Toolkit",
+      icon: redux,
+    },
     {
       name: "Java",
       icon: java,
@@ -109,10 +109,10 @@ import {
       name: "Python",
       icon: python,
     },
-    // {
-    //   name: "Tailwind CSS",
-    //   icon: tailwind,
-    // },
+    {
+      name: "Tailwind CSS",
+      icon: tailwind,
+    },
     {
       name: "Node JS",
       icon: nodejs,
@@ -121,10 +121,10 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
+    // {
+    //   name: "Three JS",
+    //   icon: threejs,
+    // },
     {
       name: "git",
       icon: git,
@@ -158,76 +158,83 @@ import {
       icon: sql,
     },
   ];
-  
+
+/*
+Contributed to the development of a computer vision app using Python Tensorflow with 6 CNN models, achieving 91-99% accuracy.
+Created Demo video with UI explanation for YouTube and potential customers, companies.
+Authored automation scripts, boosting efficiency and speed.
+Collaborated to writing and publishing a 15-page research paper detailing project innovations in AI.
+Contributed to thorough documentation and intuitive UI with Streamlit.
+*/
+
+
   const experiences = [
     {
-      title: "HR Data Scientist Student Employee",
-      company_name: "North American University",
+      title: 'Software Engineer',
+      company_name: 'North American University (NAU)',
       icon: nau,
-      iconBg: "#383E56",
-      date: "Oct 2022 - Present",
+      iconBg: '#383E56',
+      date: 'Oct 2022 - Present',
       points: [
-        "Analysing HR Data using Microsoft Excel, Power Query, Automation, Python, Visual Basic.",
-        "Collaborating with cross-functional teams' developers to create high-quality products.",
-        "Implementing accuracy and automation in analyzing reports.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        'Developing New Student Application Portal Front-End App with Next.js for NAU Admissions Office.',
+        'Leveraged Salesforce and Selenium WebDriver, combining people skills with tech expertise for process automation, quality assurance, web scraping and data analysis.',
+        'Increased process efficiency by 30%, improving the admissions experience for all involved parties using automation scripts for WhatsApp Web, and LLMs for automatic replies.',
+        'Automated the creation of HR reports using Python, Excel, reducing the process time by 70%.',
+        'Used SQL to preprocess data, as well as MS Visual Basic to automate Excel processes, enabling efficient analysis of HR records by 40% and reducing manual data entry by 70%.',
       ],
     },
     {
-      title: "Cyber Security Teaching Assistant",
-      company_name: "NAU Computer Science Department",
+      title: 'AI Enabler Intern',
+      company_name: 'Rediminds, Inc',
       icon: cs,
-      iconBg: "#E6DEDD",
-      date: "Mar 2023 - Present",
+      iconBg: '#E6DEDD',
+      date: 'Mar 2023 - Present',
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Assisting students in Linux, Cuber Security, Networks and providing constructive feedback.",
+        'Mentored students in using Linux as a development environment, providing guidance on installation, configuration, and command-line tools.',
+        'Instructed on computer networks and cyber security concepts with a focus on software engineering applications, including secure coding practices, network protocols, version control, and cloud infrastructure security',
       ],
     },
     {
-      title: "ICPC-ACM Club Vice-President",
-      company_name: "ICPC-ACM",
+      title: 'ICPC-ACM Club Vice-President',
+      company_name: 'ICPC-ACM',
       icon: acm,
-      iconBg: "#383E56",
-      date: "Jan 2023 - Present",
+      iconBg: '#383E56',
+      date: 'Jan 2023 - Present',
       points: [
-        "Leading in Hackathon, building Projects using Python, React.js, Front-End",
-        "Organizing events on computing, AI, Technology, Internships, Career Paths.",
-        "Building websites with responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        'Leading in Hackathon, building Projects using Python, React.js, Front-End',
+        'Organizing events on computing, AI, Technology, Internships, Career Paths.',
+        'Building websites with responsive design and ensuring cross-browser compatibility.',
+        'Participating in code reviews and providing constructive feedback to other developers.',
       ],
     },
     {
-      title: "Google IT Automation with Python",
-      company_name: "Certified by Google",
+      title: 'Google Data Analytics Bootcamp',
+      company_name: 'Certified by Google',
       icon: google,
-      iconBg: "#E6DEDD",
-      date: "Mar 2023 - Present",
+      iconBg: '#E6DEDD',
+      date: 'Mar 2023 - Present',
       points: [
-        "Automate Organizational Routine work using Python and Linux Shell Scripting.",
-        "Debugging and Troubleshooting, Software Testing, Automation.",
-        "Using Git, and Github for project version control and security.",
-        "Automation at Scale, Using Google Cloud Platform, Puppet and AWS.",
+        'Predicted Employee Leaving a Company & identified its factors with Machine Learning',
+        'Used regression for California House Price predictions, integrated with BackEnd App using FastAPI',
+        'Developed an automated catalog update system for an online fruit store.',
+        'Incorporated server health monitoring and alerts. Automation: Linux, Python, Computer Vision, Google Cloud, Git, GitHub',
       ],
     },
     {
-      title: "Meta Full stack Developer",
-      company_name: "Certified by Meta",
+      title: 'Meta Full Stack Bootcamp',
+      company_name: 'Certified by Meta',
       icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Apr 2023 - Present",
+      iconBg: '#E6DEDD',
+      date: 'Apr 2023 - Present',
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Front End Developement: HTML5, CSS3, JS, React.js, Three.js, Tailwind CSS, Semantic HTML, Bootstrap.",
-        "Back End Development: Django, Flask, DBMS, MySQL, Databases, APIs, PHP, Java Database Connectivity",
-        "Building Fully-fledged web applications, using unit-testing, version control.",
-        "Coding Interview Preparation.",
+        'Developed "LittleLemon", a Django-based restaurant web app with MySQL integration.',
+        'Implemented RESTful APIs, user authentication, and unit tests.',
+        'Created user-centric design and consistent branding using React, UX/UI for "LittleLemon".',
+        'Designed reservation system, user feedback, and confirmation mechanisms.',
       ],
     },
   ];
-  
+
   const testimonials = [
     {
       testimonial:
@@ -254,7 +261,7 @@ import {
       image: "https://randomuser.me/api/portraits/lego/9.jpg",
     },
   ];
-  
+
   const projects = [
     {
       name: "Portfolio Website",
@@ -342,7 +349,7 @@ import {
       ],
       image: google0,
       source_code_link: "https://www.coursera.org/account/accomplishments/specialization/certificate/QVTJ2M3TG548",
-    }, 
+    },
     {
       name: "Meta Front End Developer", //0
       description:
@@ -395,7 +402,7 @@ import {
     //     },
     //   ],
     //   image: ucpp,
-    //   source_code_link: "https://www.udemy.com/certificate/UC-a1a64c1e-bd65-42f1-9432-f5d91fbf8921/", 
+    //   source_code_link: "https://www.udemy.com/certificate/UC-a1a64c1e-bd65-42f1-9432-f5d91fbf8921/",
     // },
     // {
     //   name: "Complete SQL Mastery",//9
@@ -416,7 +423,7 @@ import {
     //     },
     //   ],
     //   image: usql,
-    //   source_code_link: "https://codewithmosh.com/courses/525068/certificate", 
+    //   source_code_link: "https://codewithmosh.com/courses/525068/certificate",
     // },
     {
       name: "100 Day of Code: Complete Python Pro",//9
@@ -437,8 +444,8 @@ import {
         },
       ],
       image: upython100,
-      source_code_link: "https://www.udemy.com/certificate/UC-9e76c763-926c-427d-97e1-a5b0ff1ffc02/", 
-    }, 
+      source_code_link: "https://www.udemy.com/certificate/UC-9e76c763-926c-427d-97e1-a5b0ff1ffc02/",
+    },
     {
       name: "Prefessional Java Developer Certificate",//9
       description:
@@ -458,8 +465,8 @@ import {
         },
       ],
       image: ujava,
-      source_code_link: "https://www.udemy.com/certificate/UC-995b7708-d32f-487d-bbb6-470654b5781c/", 
+      source_code_link: "https://www.udemy.com/certificate/UC-995b7708-d32f-487d-bbb6-470654b5781c/",
     },
   ];
-  
+
   export { services, technologies, experiences, testimonials, projects, accomplishments };

@@ -1,4 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
+import Spline from '@splinetool/react-spline';
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, Accomplishments } from './components'
 
@@ -25,5 +26,8 @@ const App = () => {
     </BrowserRouter>
   )
 }
+
+
+
 
 export default App
